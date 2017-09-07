@@ -1,0 +1,230 @@
+
+p,h1,h2,h3,a,li {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+html {
+	background-color: #d3d3d3
+}
+
+header {
+	padding-bottom: 10px;
+}
+
+nav.meni{
+		background-color: #bab9be;
+		width: 100%;		
+		height:70px;
+}
+
+
+nav.meni ul {
+	float: right;
+	padding-right: 25px;
+}
+
+nav.meni ul li {
+	float: left;
+	text-decoration: none;
+	list-style: none;
+	padding: 10px 35px;
+	display: inline-block;
+	color:#000;
+ 
+}
+a {
+	color:#000
+}
+
+li:hover {
+	background-color: #d3d3d3;
+
+}
+
+.logo {
+	margin: -90px;
+    margin-left: 25px;
+    border: 4px solid #bab9be;
+    border-radius: 100px;
+}
+
+div.hero{
+	background-image: url("slika2.jpg");
+	width: 1887px;
+	height: 600px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.wrapper {
+	height: 500px;
+}
+
+div.text {
+	position: absolute;
+    display: block;
+    margin-left: 630px;
+    margin-top: 220px;
+    font-size: 50px;
+}
+div.biografija {
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+
+div.biografija h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+div.biografija p {
+	text-align: center;
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2.usluge {
+	position: absolute;
+    margin-bottom: -2px;
+    margin-top: -65px;
+    margin-left: 45%;
+    font-size: 50px;
+}
+
+div.wrapper02 {
+	background-image: url("slika3.jpg");
+	width: 1887px;
+    height: 700px;
+    text-align: center;
+}
+
+div.wp {
+	background-image: url("s.png");
+}
+
+div.custom {
+	background-image: url("s.png");
+}
+
+div.seo {
+	background-image: url("s.png");
+}
+
+div .wp, div .custom, div .seo {
+    width: 23%;
+    height: 83%;
+    margin: 5%;
+    float: left;
+}
+
+div.wp div.text1 {
+	margin: 0 auto;
+    display: block;
+    padding: 100px;
+    font-size: 21px;
+}
+ div.text2 {
+	margin: 0 auto;
+    display: block;
+    padding: 100px;
+    font-size: 21px;
+}
+
+div.text3 {
+	margin: 0 auto;
+    display: block;
+    padding: 100px;
+    font-size: 21px;
+
+}
+
+.wplogo {
+	position: absolute;
+    padding-top: 35px;
+}
+
+.costomlogo {
+	position: absolute;
+    padding-top: 35px;
+}
+
+.seologo {
+	position: absolute;
+    padding-top: 35px;
+}
+
+div.wrapper03 {
+    width: 1887px;
+    height: 800px;
+}
+
+div.wrapper03 .text02 {
+	float: left;
+    width: 50%;
+    margin-left: 10.25rem;
+}
+
+.text02 h3 {
+	font-size: 70px;
+}
+
+ .text02 p {
+	font-size: 50px;
+}
+
+div.slika02 {
+	padding-left: 67%;
+    padding-top: 4%;
+}
+div.wrapper04 {
+	width: 1887px;
+	height: 500px;
+}
+
+h2.naslov {
+	text-align: center;
+    font-size: 50px;
+}
+
+div.kontakt {
+    margin: 5%;
+}
+
+div.kontakt01 {
+	width: 23%;
+    height: 80%;
+    margin: 5%;
+    float: right;
+	background-image: url("s.png");
+}
+
+div.kontakt p {
+	padding: 20px;
+    font-size: 20px;
+}
+
+.fb {
+	margin-left: 85px;
+}
+
+.gp, .ln {
+    margin-left: 40px;
+}
+
+.fb, .gp .ln {
+	padding-top: 25px;
+}
+
+.email ,.phone {
+	 padding-right: inherit;
+}
